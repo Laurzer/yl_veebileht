@@ -1,0 +1,22 @@
+/* reset broswer css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* navbar */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar ul {
+    float: right;
+    list-style: none;
+}
