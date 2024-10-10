@@ -11,12 +11,35 @@ body {
 }
 
 /* navbar */
-#navbar {
-    display: flex;
-    justify-content: space-between;
-}
 
-#navbar ul {
+#navbar {
+    background: #292930;
+    color: #fff;
+    overflow: auto;
+  }
+  
+  #navbar a {
+    color: #fff;
+  }
+  
+  #navbar ul {
     float: right;
     list-style: none;
-}
+  }
+  
+  #navbar ul li {
+    float: left;
+  }
+  
+  #navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  #navbar ul li a:hover,
+  #navbar ul li a.current {
+    background: #31313a;
+    color: #b3ccd6;
+  }
