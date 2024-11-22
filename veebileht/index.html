@@ -3,53 +3,65 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Import Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
         <title>Laura's corner</title>
-        <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
         <header>
-            <div class="logo">
-                <h1></h1>
+            <div class="logo-container">
+                <img src="img/IMG_0935.PNG" alt="Logo" id="logo">
+                <h1>Laura's Corner</h1>
             </div>
-            <nav id="navbar">
-                <ul>
-                    <li><a href="#">Kodu</a></li>
-                    <li><a href="#">Teenused</a></li>
-                    <li><a href="#">Blogi</a></li>
-                    <li><a href="#">Kontakt</a></li>
-                </ul>
+            <nav>
+                <a href="#artworks">Artworks</a>
+                <a href="#about-me">About Me</a>
+                <a href="#contact">Contact</a>
             </nav>
         </header>
 
         <main>
-            <article>
-                <h2>Pealkiri</h2>
-                <p>Peamine artikkel kuhu tuleb infot juurde</p>
-                <p>veel veel infot</p>
-            </article>
-
-            <aside>
-                <h3>Külgriba</h3>
-                <ul>
-                    <li>Link1</li>
-                    <li>Link2</li>
-                    <li>Link3</li>
-                    <li>Link4</li>
-                </ul>
-            </aside>
-
-            <section class="gallery">
-                <h3>PildiGalerii</h3>
-                <div class="gallery-grid">
-                    <div class="gallery-item">
-
-                    </div>
+            <section id="artworks" class="gallery">
+                <div class="gallery-item">
+                    <img src="img/IMG_0793.PNG" alt="Placeholder Image 1">
                 </div>
+                <div class="gallery-item">
+                    <img src="img/IMG_0635.PNG" alt="Placeholder Image 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/IMG_0669 2.PNG" alt="Placeholder Image 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/IMG_0852.PNG" alt="Placeholder Image 4">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/IMG_0902.JPG" alt="Artwork 5">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/E86F2652-5999-47C7-BC68-6E40B5CE1308.JPEG" alt="Artwork 6">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/IMG_0917.JPG" alt="Artwork7">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/IMG_0935.PNG" alt="Artwork 8">
+                </div>
+            </section>
+
+            <section id="about-me" style="padding: 2rem; text-align: center;">
+                <h2>About Me</h2>
+                <p>Welcome to my gallery! Here you'll find a selection of my favorite artworks.</p>
+            </section>
+
+            <section id="contact" style="padding: 2rem; text-align: center;">
+                <h2>Contact</h2>
+                <p>If you'd like to get in touch, please email me at <a href="mailto:example@example.com">lauratska@gmail.com</a>.</p>
             </section>
         </main>
 
         <footer>
-            <div class="social"></div>
+            <p>© 2024 Piltide Galerii</p>
         </footer>
     </body>
 </html>
